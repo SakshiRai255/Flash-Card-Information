@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash card information</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    ">
+</head>
+
+<body>
+    <div class="container my-3 mx-auto" style="width: 50rem">
+        <h2>Flash Card Information</h2>
+        <p>When users type anything in the text, it will show in a card.</p>
+        <div class="conatiner">
+            <div class="card border-dark">
+                <div class="card-body">
+                    <textarea class="form-control" id="usertext" rows="6"></textarea>
+                </div>
+                <div class="text-center my-2">
+                    <button style="width: 368px;" class="btn btn-primary" id="addCard">ADD CARD</button>
+                    <button style="width: 368px;" class="btn btn-primary" id="deleteAllCard">DELETE ALL CARD</button>
+                </div>
+            </div>
+
+            <div id="card-container" class="row container-fliud">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
